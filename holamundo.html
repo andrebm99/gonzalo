@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="./img/image.png" type="image/x-icon">
+    <style>
+        body {
+            background-image: linear-gradient(0deg,
+                    rgba(0, 0, 0, 0.3),
+                    rgba(0, 0, 0, 0.3)), url("./image.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center center;
+            color: white;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: "Comfortaa", sans-serif;
+        }
+
+
+        .caja {
+            height: 70vh;
+            width: 30vw;
+            background: #1b263b;
+            opacity: 0.9;
+            justify-content: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            border-radius: 15px;
+            box-shadow: 1px 1px 1px 3px #1b263b;
+        }
+
+        .caja h1 {
+            font-size: 2.5em;
+            color: #560bad;
+        }
+
+        .caja p {
+            font-size: 1.5em;
+            color: #4895ef;
+        }
+
+        .caja a {
+            color: #f26a8d;
+            padding: 10px 14px;
+            background-color: #560bad;
+            border-radius: 10px;
+            text-decoration: none;
+            transition: transform 0.3s ease, color 0.3s ease;
+        }
+
+        .caja a:hover {
+            text-decoration: underline;
+            transform: scale(1.3);
+        }
+
+        @media(max-width: 800px) {
+            .caja {
+                height: 70vh;
+                width: 90vw;
+            }
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gonzalo</title>
+</head>
+
+<body>
+    <div class="caja">
+        <h1>Hola soy <br> Gonzalo YB
+        </h1>
+        <p>Me gusta Geometry Dash</p>
+        <p>Me gusta Left 4 Dead</p>
+        <p>Me gusta Minecraft</p>
+        <a href="https://store.steampowered.com/?l=spanish" target="_blank">Unete a Steam</a>
+    </div>
+</body>
+
+</html>
